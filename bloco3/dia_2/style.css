@@ -1,0 +1,28 @@
+body{
+    font-style: italic;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: rgb(2, 37, 2);
+}
+
+h1 {
+    font-family: sans-serif;
+    width: 65px; 
+    color: darkorange;
+}
+.list-p {
+    color: darkviolet;
+}
+p {
+    font-size: 3em;
+    font-weight: 600;
+}
+#amarelo {
+    background-color: gold;
+}
+#vermelho {
+    background-color: red;
+}
+#marrom {
+    background-color: brown;
+}

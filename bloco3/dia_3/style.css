@@ -1,0 +1,45 @@
+ul {
+    background-color: yellow;
+    color: black;
+}
+ol li.PAR {
+    background-color: green;
+}
+ol li.PRIMO{
+    text-transform: uppercase;
+}
+.headers {
+    background-color: red;
+}
+h1.headers {
+    font-size: 40px;
+    border: solid 1px black;
+}
+li {
+    font-size: 20px;
+}
+ol li.italico {
+    font-weight: bold; 
+    
+}
+.azul {
+    background-color: blue
+}
+ul li.java {
+    background-color: rosybrown;
+}
+ul.sites:hover {
+    font-weight: bold;
+}
+#black {
+    background-color: black;
+}
+.verde {
+    background-color: green;
+}
+#amarelo {
+    background-color: yellow;
+}
+#laranja {
+    background-color: orange;
+}
