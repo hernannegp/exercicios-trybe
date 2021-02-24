@@ -1,0 +1,69 @@
+header {
+    text-align: center;
+}
+article h2 {
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+    margin-right: 300px;
+}
+body {
+    background-image: url(https://images.pexels.com/photos/932638/pexels-photo-932638.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+
+}
+.Odontodactylus-scyllarus {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 17px;
+}
+#Descrição {
+    padding-inline-end: 300px;
+    color: white;
+    font-style: italic;
+    font-size: 17px;
+    
+}
+.visão {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 17px;
+    font-style: italic;
+    
+}
+article section p {
+    margin-right: 300px;
+}
+.fonte {
+    color: whitesmoke;
+    display: inline;
+    padding: 10px;
+}
+.fatos-stomatopoda{
+    color: white;
+}
+.Stomatopoda {
+    border: solid black 3px;
+}
+#foto-olhos {
+    margin-right: 300px;
+}
+#foto-stomatopoda {
+    margin-right: 300px;
+}
+aside {
+    padding: 0px 100px 0px 0px ;
+    border-radius: 5%;
+    float: right;
+    border-radius: 5%;
+    background-color: crimson;
+    margin-left: 750px;
+}
+#foto-pexels {
+    padding: 30px 30px 30px 30px;
+}
+article aside h2 {
+    margin-left: 250px;
+    display: block;
+    
+}
