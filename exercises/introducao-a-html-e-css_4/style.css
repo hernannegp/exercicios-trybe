@@ -52,15 +52,15 @@ article section p {
     margin-right: 300px;
 }
 aside {
-    padding: 0px 100px 0px 0px    border-radius: 5%;
-
+    padding: 0px 100px 0px 0px ;
+    border-radius: 5%;
     float: right;
     border-radius: 5%;
     background-color: crimson;
     margin-left: 750px;
 }
 #foto-pexels {
-    padding-left: 100px;
+    padding: 30px 30px 30px 30px;
 }
 article aside h2 {
     margin-left: 250px;
