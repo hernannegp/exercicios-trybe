@@ -1,5 +1,9 @@
-//Exercicio 8
 
-for (index = 1; index <= 25; index++) {
-  console.log(index);
-} 
+
+for (let number = 0; number < 26; number++){
+  let divisao = number / 2
+    console.log(divisao)
+}
+
+
+
