@@ -1,12 +1,20 @@
-//exercicio 4
-function IndiceDeMenorValor(numeros) {
-    let indiceMenor = 0;
-    for (let indice in numeros) {
-      if (numeros[indiceMenor] > numeros[indice]) {
-        indiceMenor = indice;
+function repetidor (numeros) {
+  let repetiçao = 0;
+  let contador = 0;
+  let numeroMaisRepetido = 0;
+  for (let index in numeros) {
+    let verificador = numeros[index];
+    for (let index2 in numeros) {
+      if (verificador === numeros[index2]) {
+        contador++;
       }
     }
-    return indiceMaior;
+    if (contador > repetiçao) {
+      verificador = contador;
+      numeroMaisRepetido = index;
+    }
+    contador = 0;
   }
-  
-  console.log(IndiceDeMenorValor([2, 3, 6, 7, 10, 1])); 
+  return numeros[numeroMaisRepetido];
+}
+console.log (repetidor([9,5,7,4,3,4]))
