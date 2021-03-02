@@ -1,10 +1,11 @@
-function verificaPalindrome (word){
-    let contador = word.length;
-    for (let i = 0; i < contador - i; i+=1){
-    if (word[i] != word[contador - i -1]) {
-        return false;
-}
-}
-return true 
-}
- console.log (verificaPalindrome('giovanni'))
+function IndiceDeMaiorValor(inteiros) {
+    let indiceMaior = 0;
+    for (let indice in inteiros) {
+      if (inteiros[indiceMaior] < inteiros[indice]) {
+        indiceMaior = indice;
+      }
+    }
+    return indiceMaior;
+  }
+  
+  console.log(IndiceDeMaiorValor([2, 3, 6, 7, 10, 1])); 
