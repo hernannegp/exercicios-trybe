@@ -76,12 +76,23 @@
        let ex4 = document.querySelector('.center-content');
        let ex4P = document.createElement('p');
        ex4P.innerText = "Exercicios DOM";
-       ex4.appendChild(ex4P) 
+       ex4.appendChild(ex4P);
        // exercicio 5
-       let ex5 = document.querySelector('.main-content')
-       let ex5Div = document.createElement('div')
-       ex5.appendChild(ex5Div)
-       document.getElementsByTagName('div')[2].className = 'left-content'
+       let ex5 = document.querySelector('.main-content');
+       let ex5Div = document.createElement('div');
+       ex5.appendChild(ex5Div);
+       document.getElementsByTagName('div')[2].className = 'left-content';
+       // exercicio 6
+       let ex6 = document.querySelector('.main-content');
+       let ex6Div = document.createElement('div');
+       ex6.appendChild(ex6Div);
+       document.getElementsByTagName('div')[3].className = 'right-content';
+       // exercicio 7
+       let ex7 = document.querySelector('.left-content');
+       let ex7Img = document.createElement('img');
+       ex7Img.setAttribute('src', 'https://picsum.photos/200');
+       ex7.appendChild(ex7Img);
+       document.querySelector('.left-content img').className = 'small-image';
     </script>
   </body>
 </html>
