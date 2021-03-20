@@ -1,0 +1,41 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  @media screen and (max-width: 470px) {
+      body {
+          margin-left: 50px;
+          background-color: rgb(58, 58, 58);
+          color: rgb(233, 233, 233);
+      }
+      .main-content {
+          font-style: italic;
+          max-width: 80%;
+          text-align: left;
+          font-size: 17px;
+      }
+      footer {
+          max-width: 60%;
+          text-align: left;
+          font-size: 17px;
+      }
+      .asides {
+          max-width: 70%;
+      }
+      h2 {
+          text-align: center;
+      }
+      h3 {
+          text-align: center;
+      }
+      header {
+          max-width: 70%;
+          text-align: center;
+      }
+      #Autor {
+          font-size: 22px;
+      }
+  }
