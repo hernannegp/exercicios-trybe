@@ -39,3 +39,92 @@ html {
           font-size: 22px;
       }
   }
+
+  @media screen and (max-width: 800px) and (min-width: 471px) {
+      body {
+          margin: 8%;
+          background-color: rgb(94, 94, 94);
+          color: rgb(226, 226, 226);
+      }
+    header {
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .asides {
+        justify-content: center;
+        display: flex;
+        flex-flow: row wrap;
+        margin: 20px;
+    }
+    .main-content {
+        max-width: 80%;
+        text-align: left;
+        margin-left: 50px;
+    }
+    footer {
+        max-width: 68%;
+        text-align: center;
+        margin-left: 50px;
+    }
+    h3 {
+        font-size: x-large;
+    }
+    h1 {
+        text-align: center;
+    }
+    header p {
+        font-size: xx-large;
+    }
+  }
+
+@media screen and (min-width: 801px) and (max-width: 1300px){
+    body {
+        margin: 8%;
+        background-color: rgb(179, 179, 179);
+        color: rgb(39, 39, 39);
+    }
+    header {
+        justify-content: center;
+        font-size: x-large;
+        text-align: center;
+        max-width: 80%;
+    }
+    header p {
+        font-weight: bold;
+        font-size: xx-large;
+    }
+    header ul {
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+    .asides {
+        font-size: x-large;
+        font-weight: bold;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        justify-content: space-evenly;
+    }
+    .main-content {
+        max-width: 90%;
+        font-size: 24px;
+        text-align: left;
+        margin-left: 50px;
+    }
+    h1 {
+        text-align: center;
+    }
+    footer {
+        max-width: 70%;
+        font-size: x-large;
+        text-align: center;
+        margin-left: 170px;
+    }
+    #Autor {
+        font-weight: bold;
+        font-family: fantasy;
+    }
+}
