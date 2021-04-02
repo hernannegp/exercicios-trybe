@@ -88,3 +88,37 @@
 // assert.notDeepStrictEqual(obj1, obj3)
 // assert.notDeepStrictEqual(obj2, obj3)
 // parte 2
+// exercicio 1
+// const assert = require('assert');
+// const addOne = (array) => {
+//     const newArr = []
+//     for (let index = 0; index < array.length; index += 1){
+//         newArr.push(array[index] + 1)
+//     }
+//     return newArr
+// }
+
+// const myArray = [31, 57, 12, 5];
+// const unchanged = [31, 57, 12, 5];
+// const expected = [32, 58, 13, 6];
+// const output = addOne(myArray);
+// console.log(addOne(myArray))
+// assert.strictEqual(typeof addOne, 'function');
+// assert.deepStrictEqual(output, expected);
+// assert.deepStrictEqual(myArray, unchanged);
+// exercicio 2
+const assert = require('assert');
+const wordLengths = (strings) => {
+    const numberArray = []
+    if (strings > numberArray) {
+        strings = [3, 6, 10, 5]
+        numberArray.push(strings)
+    }
+    return numberArray
+}
+
+const words = ['sun', 'potato', 'roundabout', 'pizza'];
+const expected = [3, 6, 10, 5];
+assert.strictEqual(typeof wordLengths, 'function');
+const output = wordLengths(words);
+assert.deepStrictEqual(output, expected);
