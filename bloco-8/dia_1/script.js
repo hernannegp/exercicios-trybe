@@ -1,18 +1,18 @@
 const personEmail = (name) => {
     const email = name.toLowerCase().split(' ').join('_')
-    return {name, email:`${email}@trybe.com`}
+    return { name, email: `${email}@trybe.com` }
 }
 
 
 const newEmployees = (callback) => {
     const employees = {
-    id1: callback('Pedro Guerra'),
-    id2: callback('Luiza Drumond'),
-    id3: callback('Carla Paiva'),
+        id1: callback('Pedro Guerra'),
+        id2: callback('Luiza Drumond'),
+        id3: callback('Carla Paiva'),
     }
     return employees;
 };
-console.log(newEmployees(personEmail)) 
+console.log(newEmployees(personEmail))
 
 // exercicio 2
 
@@ -40,7 +40,7 @@ const checkAnswer = correctAnswer => userAnswer => correctAnswer.toLowerCase() =
 const correctAnswer = 'higher order function';
 const userAnswer = 'HIGHER ORDER FUNCTION';
 /* const increment = checkAnswer(correctAnswer) */
-console.log(checkAnswer(correctAnswer)(userAnswer)) 
+console.log(checkAnswer(correctAnswer)(userAnswer))
 
 // exercicio 4
 const right_Answers = ['A', 'C', 'B', 'D', 'A', 'A', 'D', 'A', 'D', 'C'];
@@ -63,3 +63,27 @@ console.log(checkAnswers(right_Answers, student_Answers, (rAnswer, uAnswer) => {
     }
     return -0.5
 }));
+
+// bonus 
+
+const mage = {
+    healthPoints: 130,
+    intelligence: 45,
+    mana: 125,
+    damage: undefined,
+};
+
+const warrior = {
+    healthPoints: 200,
+    strength: 30,
+    weaponDmg: 2,
+    damage: undefined,
+};
+
+const dragon = {
+    healthPoints: 350,
+    strength: 50,
+    damage: undefined,
+};
+
+const battleMembers = { mage, warrior, dragon };
