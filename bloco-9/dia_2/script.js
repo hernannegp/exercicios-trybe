@@ -1,6 +1,6 @@
 // apiScript.js     
 const API_URL = 'https://icanhazdadjoke.com/';
-window.onload = () => fetchJoke();
+/* window.onload = () => fetchJoke(); */
 
 const fetchJoke = () => {
     const myObject = {
@@ -14,19 +14,21 @@ const fetchJoke = () => {
 
 const sumRandom = () => {
     const myCalc = Array.from(Array(10), () => Math.floor(Math.random() * 50) + 1)
-    .map((number) => number ** 2)
-    myCalc.reduce((value, curr) => value + curr)
+    .map((number) => number ** 2).reduce((value, curr) => value + curr)
     if (myCalc < 8000) throw new Error();
     return myCalc
 }
 
-const sumFromRandomArray = (sum) => [2, 3, 5, 10].map((number) => sum / number).reduce((acc, curr) => acc + curr, 0)
+const sumFromRandomArray = (sum) => [2, 3, 5, 10].map((number) => sum / number).reduce((acc, curr) => acc + curr)
 
 const fetchPromise = async () => {
     try {
         const sum = await sumRandom();
         const sumFromSum = await sumFromRandomArray(sum);
+        console.log('Promise concluida')
     } catch (error) {
         console.log('É mais de oito mil! Essa promise deve estar quebrada!')
     }
 }
+
+fetchPromise()
