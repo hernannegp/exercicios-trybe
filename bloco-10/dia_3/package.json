@@ -1,0 +1,13 @@
+{
+  "name": "dia_3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "randomNumber.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
